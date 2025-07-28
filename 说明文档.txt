@@ -1,0 +1,3 @@
+进入code文件夹，打开终端，启动conda虚拟环境，后安装提示需要的库
+启动程序python test_bbip.py MP42.mp4
+输出视频为processed_output.mp4,视频弹窗可按Q退出
