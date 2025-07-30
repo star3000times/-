@@ -20,3 +20,8 @@
 ##### 识别本地视频：  
 `python test4LED.py --source C:/Users/UserX/Desktop/code/MP44.mp4`  
 `python main.py --source C:/Users/UserX/Desktop/code/MP44.mp4`
+### 板卡启动文档：
+- `code --no-sandbox` # 启动VSCODE  
+- `cd code` # 进入代码文件夹  
+- `source /home/jetson/miniconda3/bin/activate labelimg_env` # 启动虚拟环境  
+- `python test_bbip.py MP41.mp4` # 启动仪表识别
