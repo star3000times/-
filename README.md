@@ -28,3 +28,5 @@
      ```labelimg_env
      python test_bbip.py MP41.mp4
      ```
+识别效果
+![识别效果](指示灯.png)
