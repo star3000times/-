@@ -1,7 +1,7 @@
 ### 使用yolov8和opencv对指示灯和仪器仪表进行视觉识别  
 预期目标是将多个模块最后融合在一起，并最终部署在板卡上面。
 ![jetson板卡](jetson板卡.jpg) 
-环境：-板卡型号:AGX Xavier。
+环境：-板卡型号:AGX Xavier
 - 系统架构：Arm64架构
 - JetPack版本:5.1.5
 - CUDA 版本：11.4
