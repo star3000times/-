@@ -22,10 +22,11 @@
    - 运行`main.py`启动程序
    - 向服务器发送请求参数请求
    - 服务器收到消息并且发送json文件后，直接修改本地的`config.json`文件
-   - 注意：json文件的参数不能缺失，否则会无法接收
+   - 注意：json文件的参数不能缺失，否则会无法接收或者识别失败
    - `config.json`可调整的参数包括：
      - HSV和RGB的阈值
      - 识别的区域范围（根据摄像头的精度参数调节）
+     - 仪表的上下限，刻度的角度，角度偏置等
      - 摄像头的地址（如：
        - rtsp地址：`rtsp://admin:password@192.168.1.100:554/stream1`
        - 本地视频地址：`/media/jetson/rootfs/video_detect/MP44.mp4`
